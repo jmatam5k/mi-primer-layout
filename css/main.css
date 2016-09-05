@@ -1,0 +1,159 @@
+
+.logo{
+	display: block;
+	text-align: center;
+}
+.llarga{
+	border: 1px solid black;
+	width: 50%; 
+}
+.menu {
+	text-align: center;
+	
+}
+a{
+	font-size: 27px;
+	color: black;
+	text-decoration: none;
+}
+.centro{
+	position: relative;
+	left: 240px;
+}
+.grupal{
+	width: 50%;
+	left: 120px;
+}
+.parrafo{
+	position: relative;
+	left: 170px;
+	text-align: center;
+	width: 22%;
+}
+.linea{
+	
+	width: 13%;
+}
+.col-3{
+	position: relative;
+	left: 330px;
+}
+.corta{
+	
+	width: 12%;
+	border: 1px solid black;
+	text-align: left;
+}
+.caja{
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+h3{
+	position: relative;
+	top: 690px;
+	left: -250px;
+}
+p{
+	color: #FFF;
+	position: absolute;
+	bottom: 2px;
+	right: 0px;
+	padding:0px;
+	margin:0px;
+}
+
+.line{
+	position: relative;
+	border: 1.5px solid black;
+	width: 80px;
+	top: 690px;
+	margin-left:-250px; 
+	
+}
+.primera{
+	position: relative;
+	top: 600px;
+	left: -610px;
+}
+.segunda{
+	position: relative;
+	top: 600px;
+	left: -610px;
+}
+.uno{
+	position: absolute;
+	left: 350px;
+	top:100px;
+}
+
+.dos{
+	position: absolute;
+	left: 600px;
+	top: 100px;
+}
+.tres{
+	position: absolute;
+	left: 850px;
+	top: 100px;
+}
+.cuatro{
+	position: absolute;
+	left: 350px;
+	top: 350px;
+}
+.cinco{
+	position: absolute;
+	left: 600px;
+	top: 350px;
+}
+.seis{
+	position: absolute;
+	left: 850px;
+	top: 350px;
+}
+.co{
+	position: relative;
+	top: 1170px;
+	left: -274px;
+}
+.contenedor{
+	width: 100%; 
+	max-width: 960px ;
+	margin: 0px auto;
+}
+
+.pardos{
+	color: black;
+	position: absolute;
+	text-align: center;
+	bottom: 0px;
+	right: 450px;
+	left: 450px;
+	padding:0px;
+	margin:0px;
+}
+.cir{
+	border-radius: 50%;
+	left: 240px;
+}
+
+footer img {
+	width: 100%;
+	margin:10px;
+}
+.sub{
+	width: 33.3%;
+}
+.lar{
+    height: 5px;
+    background-color: gray;
+    padding: 10px;
+    color: #FFF;
+}
+.parrafodos{
+	text-align: center;
+	font-size: 18px;
+	padding: 12px;
+	color: black;
+}
