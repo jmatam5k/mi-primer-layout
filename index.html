@@ -1,83 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Mi Primer Layout</title>
-  
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/grid-system.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Mi Primer Layout</title>
+
 </head>
 <body>
-	<div class="contenedor">
-		<header>
-			<div class="logo">
-				<img src="img/logo.png" alt="">
-			</div>
-			<hr class="llarga">
-			<div class="menu">
-				
-				<a href="#">Inicio</a> |
-				<a href="#">Sobre Nosotros</a> |
-				<a href="#">Nuestras Coders</a> |
-				<a href="#">Contacto</a> 
-			</div>
-			<hr class="llarga">
-		</header>
-	<section class="centro">
-		<div class="row">
-			<div class="col-12">
-				<img class ="grupal" src="img/grupal.jpg" alt="">
-			</div>
-		
-		<div class="row">
-			<div class="col-12 parrafo">
-				<p>
-				<hr class="linea">
-					Laboratoria existe para encontrar jóvenes mujeres con potencial pero sin acceso a educación superior de calidad, y transformarlas en talentosas desarrolladoras web, que sirven clientes locales e internacionales con soluciones digitales de excelente calidad
-				<hr class="linea">
-				</p>
-			</div>
-			
-			</div>
-		</div>
-	</section>
-	<section class="dos">
-		
-		<h3>Nuestras Coders</h3>
-		<hr class="line">
-		<div class="row primera">
-			<div class="col-4 caja uno">
-				<img src="img/profile-1.png">
-					<p>Nombre y Apellido</p>
-			</div>
-			<div class="col-4 caja dos">
-				<img src="img/profile-2.png" alt="">
-					<p>Nombre y Apellido</p>
-			</div>
-			<div class="col-4 caja tres">
-				<img src="img/profile-3.png" alt="">
-					<p>Nombre y Apellido</p>
-			</div>
-		</div>
-		<div class="row segunda">
-			<div class="col-4 caja cuatro">
-				<img src="img/profile-4.png" alt="">
-					<p>Nombre y Apellido</p>
-			</div>
-			<div class="col-4 caja cinco">
-				<img src="img/profile-5.png" alt="">
-					<p>Nombre y Apellido</p>
-			</div>
-			<div class="col-4 caja seis">
-				<img src="img/profile-6.png" alt="">
-					<p>Nombre y Apellido</p>
-			</div>
-		</div>
-		<ul class="co">
-		<a href="coder-detail.html"><li>Coder-Detail</li></a>
-		</ul>
-	
-	</section>
-	
-	</div>
-</body>
-</html>
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<img src="img/logo.png" alt="" class="logo">
+				</div>
+				<div class="row">
+					<div class="col-12 menu1">
+						<hr class="luno">
+						<ul>
+							<li class="menu">
+								<a href="#">Inicio  |</a>
+							</li>
+							<li class="menu">
+								<a href="#">Sobre Nosotros |</a>
+							</li>
+							<li class="menu">
+								<a href="coder-detail.html">Nuestras Coders |</a>
+							</li>
+							<li class="menu">
+								<a href="#">Contacto</a>
+							</li>
+						</ul>
+						<hr class="luno">
+					</div>
+				</div>
+			</header>
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<img src="img/grupal.jpg" class="grupal">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-5 cc">
+							<hr class="gris">
+							<p class="parrafo1">
+								Laboratoria existe para encontrar jóvenes
+								mujeres con potencial pero sin acceso a
+								educación superior de calidad, y
+								transformarlas en talentosas desarrolladoras web, que sirven clientes locales e internacionales con soluciones digitales de excelente calidad
+							</p>
+							<hr class="gris">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<a href="coder-detail.html"><h1>Nuestras Coders</h1></a>
+							<hr class="negra">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4">
+							<img src="img/profile-1.png" alt="">
+						</div>
+						<div class="col-4">
+							<img src="img/profile-2.png" alt="">
+						</div>
+						<div class="col-4">
+							<img src="img/profile-3.png" alt="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4">
+							<img src="img/profile-4.png" alt="">
+						</div>
+						<div class="col-4">
+							<img src="img/profile-5.png" alt="">
+						</div>
+						<div class="col-4">
+							<img src="img/profile-6.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+		</body>
+		</html>
