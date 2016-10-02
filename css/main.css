@@ -17,6 +17,7 @@ a{
 }
 .grupal{
 	padding-top: 3%;
+	width: 1336px;
 }
 .gris{
 	width: 68px;
@@ -29,18 +30,27 @@ a{
 	padding: 5%;
 }
 .cc{
-	margin-left: 29%;
+	margin-left: 10%;
 	padding: 2%;
 }
 h1{
 	font-size: 0.7em;
+	margin-left: 10%;
 }
 .negra{
-	margin-top: -26px;
-	margin-bottom: 23px;
+	margin-top: -43px;
+	margin-bottom: 40px;
+	margin-left: 10%;
 	width: 100px;
 	height: 5px;
 	background-color: black;
+}
+.picw{
+	display: inline-block;
+	padding: 2%;
+}
+.pcw{
+	margin-left: 13%;
 }
 
 /****coder-detail***/
@@ -93,7 +103,7 @@ h2{
 .sub{
 	width: 200px;
 }
-.col-4{
+.picw2{
 	display: inline-block;
 	padding-bottom: 3%;
 	padding-left: 5%;
